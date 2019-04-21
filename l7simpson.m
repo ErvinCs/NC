@@ -1,4 +1,5 @@
 %Draw a parabola
+%Repeated Simspon
 f = @(x) x .* log(x);
 
 function A = l7simpson(f, a, b, n)
