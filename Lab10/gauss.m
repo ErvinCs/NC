@@ -9,7 +9,6 @@ function x = gauss(A,b)
       b(i) = b(i) - A(i,p)/A(p,p) * b(p)
       A(i,p:n) = A(i,p:n) - A(i,p)/A(p,p) * A(p,p:n)
     endfor
-    #b
-    x = backward_substitution(A,b)
+    x = A \ b;
   endfor
 endfunction
