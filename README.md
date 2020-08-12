@@ -1,5 +1,6 @@
 # Numerical Calculus
 Used Matlab to implement solutions for numerical problems presented in the Lectures. </br>
+
 **Learned:**
 * Divided Differences
 * Lagrange, Hermite, Birkhoff Interpolation
